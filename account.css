@@ -1,16 +1,16 @@
-/* General Styling */
+
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background: #f1f8e9 url('images/green.jpg') no-repeat center center fixed; /* Light green with background image */
-    background-size: cover; /* Ensures the background image covers the entire page */
-    color: #2e7d32; /* Dark green text */
+    background: #f1f8e9 url('images/green.jpg') no-repeat center center fixed; 
+    background-size: cover; 
+    color: #2e7d32;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Container Layout */
+
 .container {
     display: flex;
     height: 100vh;
@@ -21,15 +21,15 @@ body {
     overflow: hidden;
 }
 
-/* Sidebar Styling */
+
 .sidebar {
     width: 250px;
-    background-color: #e0f7e9; /* Light green */
-    padding: 30px 20px; /* Add padding to give more space */
+    background-color: #e0f7e9; 
+    padding: 30px 20px; 
     box-sizing: border-box;
 }
 
-/* Logo and Title Spacing */
+
 .logo-title {
     display: flex;
     align-items: center;
@@ -48,15 +48,15 @@ body {
     margin: 0;
 }
 
-/* Sidebar Buttons */
+
 .button-51, .sidebar a.button-51 {
     background-color: transparent;
     border: 1px solid #3CB371;
     color: #004D40;
     font-weight: 700;
-    font-size: 16px; /* Ensure font size is consistent */
+    font-size: 16px; 
     padding: 14px 20px;
-    width: 100%; /* Ensure full width */
+    width: 100%;
     margin-bottom: 15px;
     cursor: pointer;
     text-align: center;
@@ -64,28 +64,28 @@ body {
     transition: background-color 300ms ease, color 300ms ease;
     display: block;
     text-decoration: none;
-    box-sizing: border-box; /* Include padding in the button width */
+    box-sizing: border-box; 
 }
 
-/* Hover State for Sidebar Buttons */
+
 .button-51:hover, .sidebar a.button-51:hover {
     background-color: #A5D6A7;
 }
 
-/* Active Button State */
+
 .button-51.active, .sidebar a.button-51.active {
     background-color: #81c784;
     color: #ffffff;
 }
 
-/* Main Content */
+
 .main-content {
     display: flex;
     flex: 1;
     background-color: #ffffff;
 }
 
-/* Profile Section */
+
 .profile-section {
     flex: 1;
     padding: 40px;
@@ -113,7 +113,7 @@ body {
     margin: 10px 0;
 }
 
-/* Recipes Section */
+
 .recipes-section {
     flex: 1.5;
     padding: 40px;
@@ -127,7 +127,7 @@ body {
     color: #388e3c;
 }
 
-/* Recipe Item Styling */
+
 .recipe-item {
     display: flex;
     background-color: #fff;
@@ -167,7 +167,7 @@ body {
     margin: 10px 0;
 }
 
-/* View Recipe Button */
+
 .view-recipe-button {
     background-color: #66bb6a;
     color: #fff;

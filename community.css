@@ -1,4 +1,4 @@
-/* Global Styles */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
@@ -9,7 +9,7 @@ body {
     justify-content: center;
 }
 
-/* Header and Container Styling */
+
 .header-container {
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ body {
     width: 100%;
 }
 
-/* Logo and Title */
+
 .logo-title {
     display: flex;
     align-items: center;
@@ -55,15 +55,15 @@ body {
 }
 
 .site-title {
-    font-family: 'Poppins', sans-serif; /* Change font family to Poppins */
-    font-weight: 700; /* Set a bold weight */
-    font-size: 24px; /* Adjust the font size as needed */
-    color: #2e7d32; /* Set the color to #2e7d32 */
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700; 
+    font-size: 24px; 
+    color: #2e7d32; 
 }
 
 
 
-/* Search Bar */
+
 .search-form {
     flex-grow: 2;
     margin: 0 15px;
@@ -100,7 +100,7 @@ body {
     margin: 0;
 }
 
-/* User Cart */
+
 .user-cart {
     display: flex;
     gap: 15px;
@@ -112,7 +112,7 @@ body {
     cursor: pointer;
 }
 
-/* Navigation Buttons */
+
 .button-container {
     display: flex;
     justify-content: center;
@@ -180,7 +180,7 @@ body {
     margin: 0 15px;
 }
 
-/* Enhanced Fake Posts Section */
+
 .enhanced-post-section {
     margin-top: 30px;
     width: 100%;
@@ -208,7 +208,7 @@ body {
 
 .username {
     font-weight: bold;
-    color: #2e7d32; /* Set the color to #2e7d32 */
+    color: #2e7d32; 
 }
 
 
@@ -216,7 +216,7 @@ body {
     color: #333;
 }
 
-/* Post content: splitting into two halves */
+
 .post-content {
     display: flex;
 }
@@ -265,12 +265,12 @@ body {
 }
 
 .liked {
-    background-color: #d4edda; /* Light green for liked */
+    background-color: #d4edda; 
     color: green;
 }
 
 .disliked {
-    background-color: #f8d7da; /* Light red for disliked */
+    background-color: #f8d7da; 
     color: red;
 }
 
@@ -279,7 +279,7 @@ body {
     color: #888;
 }
 
-/* Modal Styles */
+
 .modal {
     display: none;
     position: fixed;
@@ -341,7 +341,7 @@ body {
     color: #005bb5;
 }
 
-/* Styling for the buttons: like, dislike, and try now */
+
 .like-button, .dislike-button, .try-now-button {
     background-color: white;
     border: 1px solid #ccc;
@@ -357,34 +357,34 @@ body {
     border-color: #999;
 }
 
-/* Styling for the try now button */
+
 .try-now-button {
-    color: #388e3c; /* Green text */
-    border-color: #81c784; /* Green border */
+    color: #388e3c; 
+    border-color: #81c784; 
 }
 
 .try-now-button:hover {
-    color: #2e7d32; /* Darker green on hover */
-    background-color: #e0f2f1; /* Light green background on hover */
+    color: #2e7d32; 
+    background-color: #e0f2f1; 
 }
 
-/* Specific styles for the "Share Yours" button */
+
 .share-button {
     display: flex;
-    align-items: center; /* Ensures vertical alignment */
-    gap: 5px; /* Space between the icon and text */
-    text-decoration: none; /* Remove underline */
+    align-items: center; 
+    gap: 5px;
+    text-decoration: none; 
 }
 
 .share-button .material-symbols-outlined {
-    vertical-align: middle; /* Ensures it aligns with the text baseline */
-    font-size: 24px; /* Adjust the size to match text height */
+    vertical-align: middle; 
+    font-size: 24px;
 }
 
 .dropdown {
     border: 1px solid #ccc;
     border-top: none;
-    display: none; /* Hidden by default */
+    display: none; 
     position: absolute;
     background-color: white;
     z-index: 1;
@@ -396,7 +396,7 @@ body {
     cursor: pointer;
 }
 .dropdown-item:hover {
-    background-color: #f0f0f0; /* Highlight on hover */
+    background-color: #f0f0f0;
 }
 
 

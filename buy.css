@@ -1,14 +1,14 @@
-/* General Style */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f1f8e9; /* Light green background */
-    color: #2e7d32; /* Dark green text */
+    background: #f1f8e9; 
+    color: #2e7d32; 
 }
 
-/* "Go Back" Button */
+
 .back-button {
     background-color: #81c784;
     border: none;
@@ -31,7 +31,7 @@ body {
     box-shadow: 0 5px 15px rgba(129, 199, 132, 0.4);
 }
 
-/* Hero Section */
+
 .hero {
     background-size: cover;
     background-position: center;
@@ -44,7 +44,7 @@ body {
     border-bottom: 6px solid #81c784;
 }
 
-/* Container for Ingredients and Purchase */
+
 .container {
     padding: 30px;
     max-width: 800px;
@@ -73,7 +73,7 @@ h2 {
     padding-bottom: 10px;
 }
 
-/* Ingredients List Styling */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -93,15 +93,15 @@ li {
     gap: 10px;
 }
 
-/* Checkbox Style */
+
 input[type="checkbox"] {
     cursor: pointer;
     width: 20px;
     height: 20px;
-    accent-color: #81c784; /* Light green checkbox */
+    accent-color: #81c784; 
 }
 
-/* Buy Button */
+
 .buy-button {
     background-color: #66bb6a;
     border: none;
@@ -121,7 +121,7 @@ input[type="checkbox"] {
     box-shadow: 0 5px 15px rgba(102, 187, 106, 0.4);
 }
 
-/* Confirmation Message */
+
 #confirmation {
     margin-top: 20px;
     font-size: 16px;

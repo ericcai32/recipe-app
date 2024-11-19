@@ -5,8 +5,7 @@ function initializeRecipes() {
     }
     else {
         recipes = ["Thai Yellow Curry", "Korean Fried Chicken", "Mac and Cheese", "Beef and Broccoli", "Spaghetti Carbonara", "Avocado Toast",]
-        // recipes = ["Thai Yellow Curry", "Korean Fried Chicken", "Mac and Cheese", "Beef and Broccoli", "Spaghetti Carbonara", "Avocado Toast", "Protein Pancakes", "Chicken Fried Rice", "Mango Parfait", "Southern Fried Chicken", "Whipped Up the Most Amazing Beef Pho! 🍜🔥", "Just Made the Most Amazing Jerk Oxtail! 🌶️🍖", "Some Bussin Pan-Fried Salmon! 🐟🔥"]
-        localStorage.setItem('recipes', JSON.stringify(recipes))
+        
         console.log(recipes)
         Thai_Yellow_Curry = {
             ingredients: [
@@ -326,7 +325,7 @@ recipes.forEach(recipe => {
 items = document.querySelectorAll('.dropdown-item')
 
 searchInput.addEventListener('input', function() {
-    // Show the dropdown when there is input
+   
     if (searchInput.value) {    
         dropdown.style.display = 'block';
         items.forEach(item => {
@@ -338,14 +337,14 @@ searchInput.addEventListener('input', function() {
             }
         })
     } else {
-        dropdown.style.display = 'none'; // Hide dropdown if input is empty
+        dropdown.style.display = 'none'; 
     }
 });
 
 
 document.addEventListener('click', function(event) {
     if (!searchInput.contains(event.target) && !dropdown.contains(event.target)) {
-        dropdown.style.display = 'none'; // Hide dropdown
+        dropdown.style.display = 'none'; 
     }
 });
 
@@ -357,7 +356,7 @@ let filter
 
 
 cogIcon.onclick = function() {
-    // Toggle the visibility of the dropdown
+   
     filterDropdown.classList.toggle('show');
 };
 
@@ -389,7 +388,7 @@ filterButtons.forEach(button => {
     };
 });
 
-// Close the dropdown if clicking outside of it
+
 document.addEventListener('click', function(event) {
     if (!cogIcon.contains(event.target) && !filterDropdown.contains(event.target)) {
         filterDropdown.classList.remove('show');

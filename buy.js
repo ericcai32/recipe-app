@@ -25,13 +25,13 @@ hero.style.backgroundImage = "url('" + img + "')";
 const confirmation = document.getElementById('confirmation');
 
 function buy() {
-    // Ensure at least one item is selected before confirming
+    
     const selectedItems = document.querySelectorAll('input[type="checkbox"]:checked');
     if (selectedItems.length === 0) {
         alert('Please select at least one item to purchase.');
         return;
     }
 
-    // Display confirmation message
+   
     confirmation.style.display = 'block';
 }

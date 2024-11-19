@@ -1,16 +1,16 @@
-/* General Style */
+
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    background: #f1f8e9; /* Light green background */
-    color: #2e7d32; /* Dark green text */
+    background: #f1f8e9; 
+    color: #2e7d32; 
 }
 
-/* "Go Back" Button */
+
 .back-button {
-    background-color: #81c784; /* Light green */
+    background-color: #81c784; 
     border: none;
     color: #ffffff;
     font-family: 'Poppins', sans-serif;
@@ -27,11 +27,11 @@ body {
 }
 
 .back-button:hover {
-    background-color: #a5d6a7; /* Slightly lighter green on hover */
+    background-color: #a5d6a7; 
     box-shadow: 0 5px 15px rgba(129, 199, 132, 0.4);
 }
 
-/* Hero Section */
+
 .hero {
     background-image: url('https://www.foodandwine.com/thmb/fjNakOY7IcuvZac1hR3JcSo7vzI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/FAW-recipes-pasta-sausage-basil-and-mustard-hero-06-cfd1c0a2989e474ea7e574a38182bbee.jpg');
     background-size: cover;
@@ -42,34 +42,34 @@ body {
     justify-content: center;
     color: #fff;
     text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5);
-    border-bottom: 6px solid #81c784; /* Light green border */
+    border-bottom: 6px solid #81c784; 
 }
 
-/* Container */
+
 .container {
     padding: 30px;
     max-width: 900px;
     margin: -50px auto 30px;
-    background-color: #ffffff; /* White container */
+    background-color: #ffffff; 
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     transform: translateY(-50px);
 }
 
-/* Headings */
+
 h1 {
     font-size: 3.5em;
     font-weight: 600;
     text-align: center;
     padding: 10px 20px;
-    background: #a5d6a7; /* Light green overlay */
+    background: #a5d6a7; 
     border-radius: 10px;
 }
 
 h2 {
     margin-top: 30px;
     font-weight: 700;
-    color: #388e3c; /* Darker green */
+    color: #388e3c; 
     position: relative;
     padding-bottom: 10px;
 }
@@ -81,11 +81,11 @@ h2::after {
     bottom: 0;
     width: 50px;
     height: 3px;
-    background-color: #81c784; /* Accent light green */
+    background-color: #81c784; 
     border-radius: 3px;
 }
 
-/* Ingredients List */
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -94,8 +94,8 @@ ul {
 li {
     margin: 10px 0;
     padding: 12px 15px;
-    background-color: #e8f5e9; /* Very light green */
-    border: 1px solid #c8e6c9; /* Light green border */
+    background-color: #e8f5e9; 
+    border: 1px solid #c8e6c9;
     border-radius: 8px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
     transition: transform 200ms ease-in-out;
@@ -105,21 +105,21 @@ li:hover {
     transform: translateY(-5px);
 }
 
-/* Instructions */
+
 #instructions {
     margin-top: 20px;
     line-height: 1.7;
     padding: 15px;
-    background-color: #e8f5e9; /* Very light green */
+    background-color: #e8f5e9; 
     border-radius: 10px;
-    border: 1px solid #c8e6c9; /* Light green border */
+    border: 1px solid #c8e6c9; 
 }
 
-/* Buy Button */
+
 .buy-button {
-    background-color: #66bb6a; /* Light green button */
+    background-color: #66bb6a; 
     border: none;
-    color: #ffffff; /* White text */
+    color: #ffffff;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 600;
@@ -135,7 +135,7 @@ li:hover {
 }
 
 .buy-button:hover {
-    background-color: #81c784; /* Lighter green on hover */
+    background-color: #81c784; 
     box-shadow: 0 5px 15px rgba(102, 187, 106, 0.4);
 }
 
@@ -148,12 +148,12 @@ li:hover {
     z-index: -1;
 }
 
-/* Description Styling */
+
 #description {
     margin-bottom: 20px;
     font-style: italic;
     font-size: 1.1em;
-    color: #388e3c; /* Dark green */
+    color: #388e3c; 
     text-align: center;
 }
 

@@ -59,10 +59,10 @@ body {
 }
 
 .site-title {
-    font-family: 'Poppins', sans-serif; /* Change font family to Poppins */
-    font-weight: 700; /* Set a bold weight */
-    font-size: 24px; /* Adjust the font size as needed */
-    color: #2e7d32; /* Set the color to #2e7d32 */
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 700; 
+    font-size: 24px; 
+    color: #2e7d32; 
 }
 
 .search-form {
@@ -224,7 +224,7 @@ body {
 .dropdown {
     border: 1px solid #ccc;
     border-top: none;
-    display: none; /* Hidden by default */
+    display: none;
     position: absolute;
     background-color: white;
     z-index: 1;
@@ -236,9 +236,9 @@ body {
     cursor: pointer;
 }
 .dropdown-item:hover {
-    background-color: #f0f0f0; /* Highlight on hover */
+    background-color: #f0f0f0; 
 }
-/* Styles for the Share Yours button */
+
 .share-button {
     display: inline-flex;
     align-items: center;
@@ -270,43 +270,42 @@ body {
 }
 
 .filter-dropdown {
-    display: none; /* Hidden by default */
+    display: none; 
     z-index: 1;
-    width: auto; /* Auto width for horizontal layout */
+    width: auto; 
     font-size: 10px;
-    white-space: nowrap; /* Prevent line breaks */
+    white-space: nowrap;
 }
 
 .filter-button {
-    background-color: #6DBE71; /* Background color similar to the image */
-    border: none; /* Remove border */
-    color: white; /* Text color */
-    font-family: 'Poppins', sans-serif; /* Use Poppins font */
-    font-size: 16px; /* Adjust font size */
-    font-weight: 600; /* Make text bold */
-    padding: 12px 24px; /* Adjust padding for a button-like appearance */
-    border-radius: 8px; /* Rounded corners */
-    cursor: pointer; /* Change cursor on hover */
-    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
-    margin-right: 10px; /* Space between buttons */
-    outline: none; /* Remove outline */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add slight shadow */
+    background-color: #6DBE71; 
+    border: none; 
+    color: white; 
+    font-family: 'Poppins', sans-serif; 
+    font-size: 16px; 
+    font-weight: 600; 
+    padding: 12px 24px; 
+    border-radius: 8px; 
+    cursor: pointer; 
+    transition: background-color 0.3s, transform 0.2s; 
+    margin-right: 10px; 
+    outline: none; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 .filter-button:hover {
-    background-color: #5CA960; /* Darker shade on hover */
-    transform: translateY(-2px); /* Slight lift effect on hover */
+    background-color: #5CA960; 
 }
 
 .filter-button:active {
-    transform: translateY(0); /* Reset lift effect on click */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce shadow on click */
+    transform: translateY(0); 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 
 .featured-recipes {
-    position: relative; /* Relative position for the dropdown */
-    display: inline-block; /* Ensure dropdown is positioned relative to the heading */
+    position: relative; 
+    display: inline-block; 
     cursor: pointer;
 }
 
@@ -315,13 +314,13 @@ body {
 }
 
 #filter-icon {
-    font-size: 40px; /* Adjust size as needed */
-    vertical-align: middle; /* Align vertically with text */
-    margin-left: 10px; /* Space between text and icon */
-    cursor: pointer; /* Change cursor to pointer */
-    color: #2e7d32; /* Match the color of the heading */
+    font-size: 40px; 
+    vertical-align: middle; 
+    margin-left: 10px;
+    cursor: pointer; 
+    color: #2e7d32; 
 }
 
 .featured-recipes:hover #filter-icon {
-    color: #A5D6A7; /* Optional: change color on hover */
+    color: #A5D6A7; 
 }

@@ -284,7 +284,6 @@ comRecipes.forEach(recipe => {
 items = document.querySelectorAll('.dropdown-item')
 
 searchInput.addEventListener('input', function() {
-    // Show the dropdown when there is input
     if (searchInput.value) {    
         dropdown.style.display = 'block';
         items.forEach(item => {
@@ -296,13 +295,13 @@ searchInput.addEventListener('input', function() {
             }
         })
     } else {
-        dropdown.style.display = 'none'; // Hide dropdown if input is empty
+        dropdown.style.display = 'none'; 
     }
 });
 
 
 document.addEventListener('click', function(event) {
     if (!searchInput.contains(event.target) && !dropdown.contains(event.target)) {
-        dropdown.style.display = 'none'; // Hide dropdown
+        dropdown.style.display = 'none'; 
     }
 });
